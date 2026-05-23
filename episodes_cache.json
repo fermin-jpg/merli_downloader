@@ -1,0 +1,282 @@
+[
+    {
+        "season": 1,
+        "episode_num": 1,
+        "title": "Els peripatètics",
+        "url": "https://www.3cat.cat/3cat/merli-els-peripatetics-capitol-1/video/5549976/",
+        "id": "5549976"
+    },
+    {
+        "season": 1,
+        "episode_num": 2,
+        "title": "Plató",
+        "url": "https://www.3cat.cat/3cat/merli-plato-capitol-2/video/5552234/",
+        "id": "5552234"
+    },
+    {
+        "season": 1,
+        "episode_num": 3,
+        "title": "Maquiavel",
+        "url": "https://www.3cat.cat/3cat/merli-maquiavel-capitol-3/video/5552854/",
+        "id": "5552854"
+    },
+    {
+        "season": 1,
+        "episode_num": 4,
+        "title": "Aristòtil",
+        "url": "https://www.3cat.cat/3cat/merli-aristotil-capitol-4/video/5554554/",
+        "id": "5554554"
+    },
+    {
+        "season": 1,
+        "episode_num": 5,
+        "title": "Sòcrates",
+        "url": "https://www.3cat.cat/3cat/merli-socrates-capitol-5/video/5556268/",
+        "id": "5556268"
+    },
+    {
+        "season": 1,
+        "episode_num": 6,
+        "title": "Schopenhauer",
+        "url": "https://www.3cat.cat/3cat/merli-schopenhauer-capitol-6/video/5557609/",
+        "id": "5557609"
+    },
+    {
+        "season": 1,
+        "episode_num": 7,
+        "title": "Foucault",
+        "url": "https://www.3cat.cat/3cat/merli-foucault-capitol-7/video/5559521/",
+        "id": "5559521"
+    },
+    {
+        "season": 1,
+        "episode_num": 8,
+        "title": "Guy Debord",
+        "url": "https://www.3cat.cat/3cat/merli-guy-debord-capitol-8/video/5560998/",
+        "id": "5560998"
+    },
+    {
+        "season": 1,
+        "episode_num": 9,
+        "title": "Epicur",
+        "url": "https://www.3cat.cat/3cat/merli-epicur-capitol-9/video/5562827/",
+        "id": "5562827"
+    },
+    {
+        "season": 1,
+        "episode_num": 10,
+        "title": "Els escèptics",
+        "url": "https://www.3cat.cat/3cat/merli-els-esceptics-capitol-10/video/5564568/",
+        "id": "5564568"
+    },
+    {
+        "season": 1,
+        "episode_num": 11,
+        "title": "Els sofistes",
+        "url": "https://www.3cat.cat/3cat/merli-els-sofistes-capitol-11/video/5565917/",
+        "id": "5565917"
+    },
+    {
+        "season": 1,
+        "episode_num": 12,
+        "title": "Hume",
+        "url": "https://www.3cat.cat/3cat/merli-hume-capitol-12/video/5567304/",
+        "id": "5567304"
+    },
+    {
+        "season": 1,
+        "episode_num": 13,
+        "title": "Nietzsche",
+        "url": "https://www.3cat.cat/3cat/merli-nietzsche-capitol-13/video/5569554/",
+        "id": "5569554"
+    },
+    {
+        "season": 2,
+        "episode_num": 14,
+        "title": "Els Presocràtics",
+        "url": "https://www.3cat.cat/3cat/merli-els-presocratics-capitol-14/video/5619402/",
+        "id": "5619402"
+    },
+    {
+        "season": 2,
+        "episode_num": 15,
+        "title": "Thomas Hobbes",
+        "url": "https://www.3cat.cat/3cat/merli-thomas-hobbes-capitol-15/video/5620147/",
+        "id": "5620147"
+    },
+    {
+        "season": 2,
+        "episode_num": 16,
+        "title": "Els estoics",
+        "url": "https://www.3cat.cat/3cat/merli-els-estoics-capitol-16/video/5621237/",
+        "id": "5621237"
+    },
+    {
+        "season": 2,
+        "episode_num": 17,
+        "title": "Kant",
+        "url": "https://www.3cat.cat/3cat/merli-kant-capitol-17/video/5622803/",
+        "id": "5622803"
+    },
+    {
+        "season": 2,
+        "episode_num": 18,
+        "title": "Hipàrquia",
+        "url": "https://www.3cat.cat/3cat/merli-hiparquia-capitol-18/video/5623762/",
+        "id": "5623762"
+    },
+    {
+        "season": 2,
+        "episode_num": 19,
+        "title": "Montaigne",
+        "url": "https://www.3cat.cat/3cat/merli-montaigne-capitol-19/video/5625051/",
+        "id": "5625051"
+    },
+    {
+        "season": 2,
+        "episode_num": 20,
+        "title": "Judith Butler",
+        "url": "https://www.3cat.cat/3cat/merli-judith-butler-capitol-20/video/5626484/",
+        "id": "5626484"
+    },
+    {
+        "season": 2,
+        "episode_num": 21,
+        "title": "Freud",
+        "url": "https://www.3cat.cat/3cat/merli-freud-capitol-21/video/5627618/",
+        "id": "5627618"
+    },
+    {
+        "season": 2,
+        "episode_num": 22,
+        "title": "Descartes",
+        "url": "https://www.3cat.cat/3cat/merli-descartes-capitol-22/video/5630506/",
+        "id": "5630506"
+    },
+    {
+        "season": 2,
+        "episode_num": 23,
+        "title": "Engels",
+        "url": "https://www.3cat.cat/3cat/merli-engels-capitol-23/video/5631167/",
+        "id": "5631167"
+    },
+    {
+        "season": 2,
+        "episode_num": 24,
+        "title": "Zizek",
+        "url": "https://www.3cat.cat/3cat/merli-zizek-capitol-24/video/5632204/",
+        "id": "5632204"
+    },
+    {
+        "season": 2,
+        "episode_num": 25,
+        "title": "El taoisme",
+        "url": "https://www.3cat.cat/3cat/merli-el-taoisme-capitol-25/video/5634590/",
+        "id": "5634590"
+    },
+    {
+        "season": 2,
+        "episode_num": 26,
+        "title": "Boeci",
+        "url": "https://www.3cat.cat/3cat/merli-boeci-capitol-26/video/5636420/",
+        "id": "5636420"
+    },
+    {
+        "season": 3,
+        "episode_num": 27,
+        "title": "Walter Benjamin",
+        "url": "https://www.3cat.cat/3cat/merli-walter-benjamin-capitol-27/video/5687397/",
+        "id": "5687397"
+    },
+    {
+        "season": 3,
+        "episode_num": 28,
+        "title": "Adam Smith",
+        "url": "https://www.3cat.cat/3cat/merli-adam-smith-capitol-28/video/5688846/",
+        "id": "5688846"
+    },
+    {
+        "season": 3,
+        "episode_num": 29,
+        "title": "Albert Camus",
+        "url": "https://www.3cat.cat/3cat/merli-albert-camus-capitol-29/video/5690347/",
+        "id": "5690347"
+    },
+    {
+        "season": 3,
+        "episode_num": 30,
+        "title": "Karl Marx",
+        "url": "https://www.3cat.cat/3cat/karl-marx/video/5691679/",
+        "id": "5691679"
+    },
+    {
+        "season": 3,
+        "episode_num": 31,
+        "title": "Hannah Arendt",
+        "url": "https://www.3cat.cat/3cat/hannah-arendt/video/5693303/",
+        "id": "5693303"
+    },
+    {
+        "season": 3,
+        "episode_num": 32,
+        "title": "Kierkegaard",
+        "url": "https://www.3cat.cat/3cat/kierkegaard/video/5694535/",
+        "id": "5694535"
+    },
+    {
+        "season": 3,
+        "episode_num": 33,
+        "title": "Thoreau",
+        "url": "https://www.3cat.cat/3cat/thoreau/video/5698244/",
+        "id": "5698244"
+    },
+    {
+        "season": 3,
+        "episode_num": 34,
+        "title": "Plotí",
+        "url": "https://www.3cat.cat/3cat/ploti/video/5699790/",
+        "id": "5699790"
+    },
+    {
+        "season": 3,
+        "episode_num": 35,
+        "title": "Zygmunt Bauman",
+        "url": "https://www.3cat.cat/3cat/zygmunt-bauman/video/5701337/",
+        "id": "5701337"
+    },
+    {
+        "season": 3,
+        "episode_num": 36,
+        "title": "Heidegger",
+        "url": "https://www.3cat.cat/3cat/merli-heidegger-capitol-36/video/5702948/",
+        "id": "5702948"
+    },
+    {
+        "season": 3,
+        "episode_num": 37,
+        "title": "Hegel",
+        "url": "https://www.3cat.cat/3cat/merli-hegel-capitol-37/video/5704654/",
+        "id": "5704654"
+    },
+    {
+        "season": 3,
+        "episode_num": 38,
+        "title": "Sant Agustí",
+        "url": "https://www.3cat.cat/3cat/merli-sant-agusti-capitol-38/video/5706358/",
+        "id": "5706358"
+    },
+    {
+        "season": 3,
+        "episode_num": 39,
+        "title": "Els peripatètics del segle XXI",
+        "url": "https://www.3cat.cat/3cat/els-peripatetics-del-segle-xxi/video/5711186/",
+        "id": "5711186"
+    },
+    {
+        "season": 3,
+        "episode_num": 40,
+        "title": "Merlí Bergeron",
+        "url": "https://www.3cat.cat/3cat/merli-merli-bergeron-capitol-40/video/5717667/",
+        "id": "5717667"
+    }
+]
