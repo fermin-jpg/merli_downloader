@@ -1,14 +1,5 @@
 Este software es de OpenSource sin ánimo de lucro. 
 
-🚀 Merlí - Descargador Autónomo de Episodios v1.0.0
-
-He desarrollado este gestor de descargas gráfico en Python de código abierto para automatizar y ordenar la descarga y preservación de las temporadas 1, 2 y 3 de la aclamada serie "Merlí" desde el portal oficial de 3Cat.
-
-📌 Descripción General
-He creado esta aplicación de escritorio multiplataforma (optimizada para Windows) en Python 3 utilizando la librería gráfica Tkinter/TTK con un diseño oscuro personalizado (Dark Mode).
-
-Mi script automatiza por completo el proceso de extracción de metadatos de los capítulos de la serie desde la web de 3Cat (anteriormente TV3/CCMA). También almacena una caché local para acelerar la inicialización, lleva un registro pormenorizado del estado de cada descarga para evitar bajar contenido duplicado y gestiona descargas concurrentes y resilientes mediante un wrapper optimizado del motor yt-dlp.
-
 🛠️ Requisitos e Instalación
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
 
@@ -19,6 +10,16 @@ Python 3.8 o superior (Asegúrate de marcar la casilla "Add Python to PATH" dura
 Abre una terminal (PowerShell, Command Prompt o terminal de Linux/macOS) en el directorio del proyecto e instala las dependencias ejecutando:
 
 pip install requests beautifulsoup4 yt-dlp
+
+🚀 Merlí - Descargador Autónomo de Episodios v1.0.0
+
+He desarrollado este gestor de descargas gráfico en Python de código abierto para automatizar y ordenar la descarga y preservación de las temporadas 1, 2 y 3 de la aclamada serie "Merlí" desde el portal oficial de 3Cat.
+
+📌 Descripción General
+He creado esta aplicación de escritorio multiplataforma (optimizada para Windows) en Python 3 utilizando la librería gráfica Tkinter/TTK con un diseño oscuro personalizado (Dark Mode).
+
+Mi script automatiza por completo el proceso de extracción de metadatos de los capítulos de la serie desde la web de 3Cat (anteriormente TV3/CCMA). También almacena una caché local para acelerar la inicialización, lleva un registro pormenorizado del estado de cada descarga para evitar bajar contenido duplicado y gestiona descargas concurrentes y resilientes mediante un wrapper optimizado del motor yt-dlp.
+
 
 3. Ejecución
 
