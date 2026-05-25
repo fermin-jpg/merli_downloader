@@ -12,11 +12,13 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 
 2 - Descargar ZIP : Descarga todas las carpetas en ZIP desde la flecha de arriba del botón verde.
 
-3 - inicia el `Run.bat`.
+3 - Inicia el `Run.bat`.
 
-4 - instala las dependecias que te pide (tarda 3 min aprox en total)
+4 - Instala las dependecias que te pide (tarda 3 min aprox en total)
 
-5 - le das al botón verde llamado `Iniciar`.
+5 - Le das al botón verde llamado `Iniciar`.
+
+6 - Se guarda en la carpeta `Vídeos` de windows.
   
 Este software es de OpenSource sin ánimo de lucro.
 
