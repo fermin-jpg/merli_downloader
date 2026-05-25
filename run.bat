@@ -11,7 +11,7 @@ if %errorlevel% neq 0 (
     echo Para solucionar esto:
     echo 1. Descarga e instala Python desde: https://www.python.org/downloads/
     echo 2. DURANTE LA INSTALACION, asegurese de marcar la casilla:
-    echo    "Add python.exe to PATH" (o "Agregar python.exe al PATH").
+    echo    "Add python.exe to PATH" o "Agregar python.exe al PATH".
     echo.
     pause
     exit /b
@@ -26,7 +26,7 @@ if %errorlevel% neq 0 (
     
     python -m pip install --user requests beautifulsoup4 yt-dlp
     if %errorlevel% neq 0 (
-        :: Intento de respaldo si la instalacion con --user falla
+        rem Intento de respaldo si la instalacion con --user falla
         python -m pip install requests beautifulsoup4 yt-dlp
     )
     
