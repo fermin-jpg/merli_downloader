@@ -13,6 +13,19 @@ Mi script automatiza por completo el proceso de extracción de metadatos de los 
 
 ---
 
+## 📖 Manual de Instrucciones de Uso
+He diseñado la interfaz de la aplicación para que sea súper intuitiva y autónoma:
+
+* Carga Inicial: Al abrir la aplicación por primera vez, se conectará a internet en segundo plano para raspar los metadatos de los capítulos directamente de 3Cat. Una vez obtenidos, se guardarán en un caché local (episodes_cache.json). En ejecuciones posteriores, la carga será instantánea usando dicho caché.
+* Visualizar Episodios: La tabla izquierda lista todos los capítulos ordenados con su código identificador (S01E01, S01E02...), su título limpio, su estado actual y el progreso.
+
+### Iniciar las Descargas:
+Haz clic en 🚀 INICIAR. El descargador comenzará automáticamente a procesar el primer capítulo con estado Pendiente o Fallido. Una vez completado un episodio con éxito, actualizará su estado a ✅ Completado y pasará de inmediato al siguiente de forma secuencial y autónoma.
+
+### Pausar/Detener:
+Si deseas pausar las descargas, haz clic en 🛑 DETENER. La aplicación esperará a que termine de manera segura la descarga en curso o cancelará la conexión de forma segura para no corromper archivos parciales.
+
+
 ## 🛠️ Requisitos e Instalación
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
 
@@ -31,17 +44,7 @@ Abre una terminal (PowerShell, Command Prompt o terminal de Linux/macOS) en el d
 
 ---
 
-## 📖 Manual de Instrucciones de Uso
-He diseñado la interfaz de la aplicación para que sea súper intuitiva y autónoma:
 
-* Carga Inicial: Al abrir la aplicación por primera vez, se conectará a internet en segundo plano para raspar los metadatos de los capítulos directamente de 3Cat. Una vez obtenidos, se guardarán en un caché local (episodes_cache.json). En ejecuciones posteriores, la carga será instantánea usando dicho caché.
-* Visualizar Episodios: La tabla izquierda lista todos los capítulos ordenados con su código identificador (S01E01, S01E02...), su título limpio, su estado actual y el progreso.
-
-### Iniciar las Descargas:
-Haz clic en 🚀 INICIAR. El descargador comenzará automáticamente a procesar el primer capítulo con estado Pendiente o Fallido. Una vez completado un episodio con éxito, actualizará su estado a ✅ Completado y pasará de inmediato al siguiente de forma secuencial y autónoma.
-
-### Pausar/Detener:
-Si deseas pausar las descargas, haz clic en 🛑 DETENER. La aplicación esperará a que termine de manera segura la descarga en curso o cancelará la conexión de forma segura para no corromper archivos parciales.
 
 ### Acciones Adicionales:
 * 📁 Abrir Carpeta Videos: Abre directamente en el explorador de tu sistema el directorio donde se están guardando los videos (por defecto, la carpeta nativa Videos de tu usuario en Windows: C:\Users\<Usuario>\Videos).
