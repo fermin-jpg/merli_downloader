@@ -17,10 +17,10 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 ### 1. Requisitos Previos
 * **Python 3.8** o superior : https://www.python.org/downloads/
   
-### 3. Ejecución
+### 2. Descarga
 * **Descargar ZIP ** : Descarga todas las carpetas en ZIP desde la flecha de arriba del botón verde.
 
-### 2. Ejecución
+### 3. Ejecución
 
 * **doble clic en :** `run.bat` esto iniciará la consola, y llamará al script de Python .
   
