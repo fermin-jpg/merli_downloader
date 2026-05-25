@@ -28,7 +28,6 @@ Este software es de OpenSource sin ánimo de lucro.
 
 
 ## 📖 Manual de Instrucciones de Uso
-<<<<<<< HEAD
 
 He diseñado la interfaz de la aplicación para que sea súper intuitiva y autónoma:
 
