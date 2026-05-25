@@ -17,7 +17,7 @@ Mi script automatiza por completo el proceso de extracción de metadatos de los 
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
 
 ### 1. Requisitos Previos
-* **Python 3.8** o superior (Asegúrate de marcar la casilla *"Add Python to PATH"* durante la instalación).
+* **Python 3.8** o superior : https://www.python.org/downloads/ (Asegúrate de marcar la casilla *"Add Python to PATH"* durante la instalación).
 
 ### 2. Instalación de Dependencias
 Abre una terminal (PowerShell, Command Prompt o terminal de Linux/macOS) en el directorio del proyecto e instala las dependencias ejecutando:
