@@ -15,8 +15,10 @@ Mi script automatiza por completo el proceso de extracción de metadatos de los 
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
 
 ### 1. Requisitos Previos
-* **1 - Python 3.8** o superior : https://www.python.org/downloads/
+* **Python 3.8** o superior : https://www.python.org/downloads/
   
+### 3. Ejecución
+* **Descargar ZIP ** : Descarga todas las carpetas en ZIP desde la flecha de arriba del botón verde.
 
 ### 2. Ejecución
 
