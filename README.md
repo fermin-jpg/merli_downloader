@@ -14,15 +14,11 @@ Mi script automatiza por completo el proceso de extracción de metadatos de los 
 
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
 
-### 1. Requisitos Previos
-* **Python 3.8** o superior : https://www.python.org/downloads/
-  
-### 2. Descarga
-* **Descargar ZIP ** : Descarga todas las carpetas en ZIP desde la flecha de arriba del botón verde.
+1 - Descargar Pyhton : https://www.python.org/downloads/
 
-### 3. Ejecución
+2 - Descargar ZIP : Descarga todas las carpetas en ZIP desde la flecha de arriba del botón verde.
 
-* **doble clic en :** `run.bat` esto iniciará la consola, y llamará al script de Python .
+3 - inicia el `Start.bat`.
   
 * Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total).
 
