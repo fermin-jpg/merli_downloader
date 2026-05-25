@@ -20,7 +20,7 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 
 ### 2. Ejecución
 
-* **doble clic en :** run.bat esto iniciará la consola, y llamará al script de Python .
+* **doble clic en :** `run.bat` esto iniciará la consola, y llamará al script de Python .
   
 * Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total).
 
