@@ -34,8 +34,16 @@ if %errorlevel% equ 0 (
 :: Si no se encontro ningun Python valido
 echo [ERROR] necesitas tener instalado Python , instalalo y inicia de nuevo el Run
 echo.
-echo Redireccionando a la pagina oficial de descargas de Python...
-start https://www.python.org/downloads/
+set /p "RESPUESTA=Quieres que te redirijamos a la pagina de descarga de Python? (S/N): "
+if /i "%RESPUESTA%"=="S" (
+    echo.
+    echo Abriendo la pagina oficial de Python en tu navegador...
+    start https://www.python.org/downloads/
+    echo Una vez instalado Python, vuelve a ejecutar el Run.bat
+) else (
+    echo.
+    echo Recuerda instalar Python manualmente desde: https://www.python.org/downloads/
+)
 echo.
 pause
 exit /b
