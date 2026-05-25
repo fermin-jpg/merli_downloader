@@ -16,7 +16,7 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 
 ### 1. Requisitos Previos
 * **1 - Python 3.8** o superior : https://www.python.org/downloads/
-* **2 - Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total)
+* 2 - Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total)
 
 ### 2. Ejecución
 
