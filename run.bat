@@ -6,10 +6,12 @@ echo.
 :: Determinar si hay un Python real instalado y funcional
 set "PYTHON_EXE="
 
+echo [1/4] Buscando interprete de Python...
 :: 1. Probar py.exe (Lanzador oficial de Python)
 py -c "import sys" >nul 2>&1
 if %errorlevel% equ 0 (
     set "PYTHON_EXE=py"
+    echo     - Detectado: py.exe
     goto python_found
 )
 
@@ -17,6 +19,7 @@ if %errorlevel% equ 0 (
 python -c "import sys" >nul 2>&1
 if %errorlevel% equ 0 (
     set "PYTHON_EXE=python"
+    echo     - Detectado: python.exe
     goto python_found
 )
 
@@ -24,10 +27,11 @@ if %errorlevel% equ 0 (
 python3 -c "import sys" >nul 2>&1
 if %errorlevel% equ 0 (
     set "PYTHON_EXE=python3"
+    echo     - Detectado: python3.exe
     goto python_found
 )
 
-:: Si llegamos aqui, no hay Python real instalado (o es el alias vacio de Windows Store)
+:: Si no se encontro ningun Python valido
 echo [ERROR] necesitas tener instalado Python , instalalo y inicia de nuevo el Run
 echo.
 echo Redireccionando a la pagina oficial de descargas de Python...
@@ -38,15 +42,13 @@ exit /b
 
 :python_found
 echo.
-echo [OK] Python esta listo para usarse.
-echo.
-
-:: Verificar e instalar dependencias
-"%PYTHON_EXE%" -c "import requests, bs4, yt_dlp" >nul 2>&1
+echo [2/4] Verificando librerias instaladas...
+echo     - Comprobando modulos: requests, bs4, yt_dlp...
+"%PYTHON_EXE%" -c "import requests; print('      * requests: OK'); import bs4; print('      * bs4: OK'); import yt_dlp; print('      * yt_dlp: OK')" 2>nul
 if %errorlevel% neq 0 (
-    echo [INFO] Instalando dependencias necesarias (requests, beautifulsoup4, yt-dlp)...
-    echo Esto puede tardar unos minutos, por favor espere...
     echo.
+    echo [3/4] Instalando librerias faltantes...
+    echo     - Ejecutando: %PYTHON_EXE% -m pip install requests beautifulsoup4 yt-dlp
     "%PYTHON_EXE%" -m pip install requests beautifulsoup4 yt-dlp --no-warn-script-location
     if %errorlevel% neq 0 (
         echo.
@@ -56,16 +58,21 @@ if %errorlevel% neq 0 (
         pause
         exit /b
     )
-    echo.
     echo [OK] Dependencias instaladas con exito.
     echo.
+) else (
+    echo     - Todas las librerias estan presentes.
 )
 
-:: Lanzar la aplicacion
+echo.
+echo [4/4] Lanzando la aplicacion grafica...
+echo     - Ejecutando: %PYTHON_EXE% "%~dp0downloader.py"
+echo.
+
 "%PYTHON_EXE%" "%~dp0downloader.py"
 if %errorlevel% neq 0 (
     echo.
-    echo La aplicacion finalizo inesperadamente.
+    echo [ERROR] La aplicacion finalizo inesperadamente (Codigo de salida: %errorlevel%).
     pause
 )
 
