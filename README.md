@@ -4,12 +4,6 @@
 
 ---
 
-## 📌 Descripción General
-
-Mi script automatiza por completo el proceso de extracción de metadatos de los capítulos de la serie desde la web de **3Cat** (anteriormente TV3/CCMA). También almacena una caché local para acelerar la inicialización, lleva un registro pormenorizado del estado de cada descarga para evitar bajar contenido duplicado y gestiona descargas concurrentes y resilientes mediante un wrapper optimizado del motor **`yt-dlp`**.
-
----
-
 ## 🪄Instrucciones
 
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
