@@ -18,11 +18,12 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 
 2 - Descargar ZIP : Descarga todas las carpetas en ZIP desde la flecha de arriba del botón verde.
 
-3 - inicia el `Start.bat`.
+3 - inicia el `Run.bat`.
+
+4 - instala las dependecias que te pide (tarda 3 min aprox en total)
+
+5 - le das al botón verde llamado `Iniciar`.
   
-* Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total).
-
-
 Este software es de OpenSource sin ánimo de lucro.
 
 
