@@ -20,9 +20,9 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 
 ### 2. Ejecución
 
-* **En Windows (Recomendado):** Simplemente haz doble clic en el archivo lanzador  [run.bat]  Este iniciará la consola, llamará al script de Python , instalará las librearias necesarias y mantendrá la ventana abierta si ocurre algún error.*
+* **En Windows (Recomendado):** Simplemente haz doble clic en el archivo lanzador  [run.bat]  Este iniciará la consola, llamará al script de Python .*
   
-* Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total)
+* Dependencias : instala las dependecias que te pide (tarda 3 min aprox en total).
 
 
 Este software es de OpenSource sin ánimo de lucro.
