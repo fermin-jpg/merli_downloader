@@ -19,15 +19,10 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 ### 1. Requisitos Previos
 * **Python 3.8** o superior : https://www.python.org/downloads/ (Asegúrate de marcar la casilla *"Add Python to PATH"* durante la instalación).
 
-### 2. Instalación de Dependencias
-Abre una terminal (PowerShell, Command Prompt o terminal de Linux/macOS) en el directorio del proyecto e instala las dependencias ejecutando:
+### 2. Ejecución
 
-```bash
-pip install requests beautifulsoup4 yt-dlp
-```
-
-### 3. Ejecución
-* **En Windows (Recomendado):** Simplemente haz doble clic en el archivo lanzador que creé: [run.bat](file:///c:/Users/fermi/.gemini/antigravity/scratch/merli_downloader/run.bat). Este iniciará la consola, llamará al script de Python y mantendrá la ventana abierta si ocurre algún error.
+* **En Windows (Recomendado):** Simplemente haz doble clic en el archivo lanzador  [run.bat]  Este iniciará la consola, llamará al script de Python y mantendrá la ventana abierta si ocurre algún error.
+* 
 * **Desde Terminal:** Ejecuta el siguiente comando en el directorio del proyecto:
   ```bash
   python downloader.py
