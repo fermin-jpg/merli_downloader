@@ -12,7 +12,7 @@ Mi script automatiza por completo el proceso de extracción de metadatos de los 
 
 ---
 
-## 🛠️ Requisitos e Instalación
+## 🪄Instrucciones
 
 Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python instalado y algunas librerías básicas.
 
