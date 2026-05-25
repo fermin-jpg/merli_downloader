@@ -11,6 +11,7 @@ He desarrollado este gestor de descargas gráfico en Python de código abierto p
 ## 📖 Manual de Instrucciones de Uso
 He diseñado la interfaz de la aplicación para que sea súper intuitiva y autónoma:
 
+* Inicia el run.bat
 * Carga Inicial: Al abrir la aplicación por primera vez, se conectará a internet en segundo plano para raspar los metadatos de los capítulos directamente de 3Cat. Una vez obtenidos, se guardarán en un caché local (episodes_cache.json). En ejecuciones posteriores, la carga será instantánea usando dicho caché.
 * Visualizar Episodios: La tabla izquierda lista todos los capítulos ordenados con su código identificador (S01E01, S01E02...), su título limpio, su estado actual y el progreso.
 
