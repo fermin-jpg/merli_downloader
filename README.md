@@ -23,10 +23,7 @@ Para que puedas ejecutar mi script en tu máquina, necesitas contar con Python i
 
 * **En Windows (Recomendado):** Simplemente haz doble clic en el archivo lanzador  [run.bat]  Este iniciará la consola, llamará al script de Python y mantendrá la ventana abierta si ocurre algún error.
 * 
-* **Desde Terminal:** Ejecuta el siguiente comando en el directorio del proyecto:
-  ```bash
-  python downloader.py
-  ```
+
 =======
 
 Este software es de OpenSource sin ánimo de lucro.
