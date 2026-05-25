@@ -6,11 +6,6 @@ Este software es de OpenSource sin ánimo de lucro.
 
 He desarrollado este gestor de descargas gráfico en Python de código abierto para automatizar y ordenar la descarga y preservación de las temporadas 1, 2 y 3 de la aclamada serie "Merlí" desde el portal oficial de 3Cat.
 
-## 📌 Descripción General
-He creado esta aplicación de escritorio multiplataforma (optimizada para Windows) en Python 3 utilizando la librería gráfica Tkinter/TTK con un diseño oscuro personalizado (Dark Mode).
-
-Mi script automatiza por completo el proceso de extracción de metadatos de los capítulos de la serie desde la web de 3Cat (anteriormente TV3/CCMA). También almacena una caché local para acelerar la inicialización, lleva un registro pormenorizado del estado de cada descarga para evitar bajar contenido duplicado y gestiona descargas concurrentes y resilientes mediante un wrapper optimizado del motor yt-dlp.
-
 ---
 
 ## 📖 Manual de Instrucciones de Uso
